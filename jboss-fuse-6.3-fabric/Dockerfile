@@ -1,7 +1,7 @@
-# Use latest dwi67/jboss-fuse-6.3-admin image as the base
+# Use latest hammj/jboss-fuse-6.3-admin image as the base
 FROM hammj/jboss-fuse-6.3-admin
 
-MAINTAINER Dieter Wijngaards <dieter.wijngaards@adesso.ch>
+MAINTAINER Joshua Hamm <hammj@sutterhealth.org>
 
 USER root
 
