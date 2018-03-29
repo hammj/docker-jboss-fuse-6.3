@@ -1,5 +1,5 @@
 # Use latest dwi67/jboss-fuse-6.3-admin image as the base
-FROM dwi67/jboss-fuse-6.3-admin
+FROM hammj/jboss-fuse-6.3-admin
 
 MAINTAINER Dieter Wijngaards <dieter.wijngaards@adesso.ch>
 
