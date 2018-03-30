@@ -58,7 +58,7 @@ export KARAF_OPTS="-Dkaraf.name=${FUSE_KARAF_NAME} -Druntime.id=${FUSE_RUNTIME_I
 # Move the bundle cache and tmp directories outside of the data dir so it's not persisted between container runs
 #
 echo "Moving tmp"
-#mv jboss-fuse/data/tmp jboss-fuse/tmp
+mv jboss-fuse/data/tmp jboss-fuse/tmp
 echo '
 org.osgi.framework.storage=${karaf.base}/tmp/cache
 '>> jboss-fuse/etc/config.properties
